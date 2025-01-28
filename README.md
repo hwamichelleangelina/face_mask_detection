@@ -5,10 +5,10 @@ This project implements a Face Mask Detection system using Convolutional Neural 
 The model is trained using a publicly available dataset of face mask images. The approach utilizes deep learning techniques, specifically CNNs, to analyze and classify images based on the presence of a face mask. The system is designed to be highly accurate, achieving an accuracy greater than 90% on both training and testing datasets.
 
 ## Key Features:
-**CNN Architecture**: The model utilizes layers such as Conv2D, MaxPooling2D, Flatten, Dense, and Dropout for feature extraction and classification.
-**High Accuracy**: The model achieves more than 90% accuracy on both training and testing data.
-**Overfitting Evaluation**: The model is evaluated to ensure there is no overfitting, and generalizes well to unseen data.
-**Multiple Model Exports**: The model is saved in various formats including TensorFlow SavedModel, TensorFlow Lite (TFLite), and TensorFlow.js for easy deployment.
+- **CNN Architecture**: The model utilizes layers such as Conv2D, MaxPooling2D, Flatten, Dense, and Dropout for feature extraction and classification.
+- **High Accuracy**: The model achieves more than 90% accuracy on both training and testing data.
+- **Overfitting Evaluation**: The model is evaluated to ensure there is no overfitting, and generalizes well to unseen data.
+- **Multiple Model Exports**: The model is saved in various formats including TensorFlow SavedModel, TensorFlow Lite (TFLite), and TensorFlow.js for easy deployment.
 
 ### Technologies:
 Python
