@@ -19,6 +19,35 @@ Scikit-learn
 Matplotlib
 Google Colab (for dataset access)
 
+## Project Directory
+```
+├───tfjs_model
+|    ├───group1-shard1of1.bin
+|    └───model.json
+├───tflite
+|    ├───model.tflite
+|    └───label.txt
+├───saved_model
+|    ├───saved_model.pb
+|    └───variables
+├───notebook.ipynb
+├───README.md
+└───requirements.txt
+```
+### Directory Breakdown:
+- **`tfjs_model/`**: Contains the model files for deployment using TensorFlow.js.
+  - **`group1-shard1of1.bin`**: The binary weight file for the TensorFlow.js model.
+  - **`model.json`**: The configuration file that contains the model architecture for TensorFlow.js.
+- **`tflite/`**: Contains the TensorFlow Lite model files for deployment on mobile and embedded devices.
+  - **`model.tflite`**: The model file in TensorFlow Lite format.
+  - **`label.txt`**: A text file containing the labels (classes) for the model.
+- **`saved_model/`**: Contains the TensorFlow SavedModel files. This is a complete TensorFlow model directory that includes both the model and its weights.
+  - **`saved_model.pb`**: The model's serialized graph.
+  - **`variables/`**: The directory containing the model's weights.
+- **`face_mask_detection.ipynb`**: A Jupyter notebook that contains the code for training the face mask detection model and performing evaluation.
+- **`README.md`**: This file, providing an overview of the project.
+- **`requirements.txt`**: The list of required dependencies to run the project.
+
 ## Installation
 To run this project locally, follow the steps below:
 
