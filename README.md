@@ -93,5 +93,5 @@ Use the trained model for inference.
 Once the model is saved, you can use the appropriate format (TensorFlow, TFLite, or TensorFlow.js) for deployment based on your platform.
 
 ## Results
-Accuracy: The model achieved an accuracy greater than 90% on both training and testing datasets.
-Overfitting Check: The model has been evaluated for overfitting, and the results indicate that the model generalizes well on new data.
+- **Accuracy**: The model achieved an accuracy greater than 90% on both training and testing datasets.
+- **Overfitting Check**: The model has been evaluated for overfitting, and the results indicate that the model generalizes well on new data.
