@@ -97,7 +97,6 @@ To prevent overfitting, **Early Stopping** is applied. It monitors the validatio
 - The model is trained with augmented data using **data generators** for both training and testing. This ensures that the model is exposed to varied examples, improving generalization.
 - **Class Weights**: If the dataset is imbalanced, class weights are applied to give more importance to underrepresented classes.
 - **Training Halting**: The training process will stop early based on validation performance, thanks to the Early Stopping callback.
-This setup ensures efficient model training, minimizing overfitting while maximizing generalization performance. The architecture is well-suited for image classification tasks and is designed to perform well on a variety of input data.
 
 #### Step 4: Model Evaluation
 Evaluate the model to check for overfitting and assess its generalization performance.
