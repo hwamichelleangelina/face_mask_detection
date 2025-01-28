@@ -24,7 +24,10 @@ To run this project locally, follow the steps below:
 
 #### Step 1: Install Dependencies
 Install the required libraries using the following command:
-``` pip install -r requirements.txt ```
+```
+pip install -r requirements.txt
+```
+
 Here’s a quick guide on the key libraries used:
 `tensorflow, tensorflowjs, opencv-python, split-folders, scikit-learn, matplotlib`
 
