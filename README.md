@@ -92,6 +92,15 @@ Use the trained model for inference.
 #### Step 7: Deployment
 Once the model is saved, you can use the appropriate format (TensorFlow, TFLite, or TensorFlow.js) for deployment based on your platform.
 
+## Summary of Preprocessing Steps
+- **Dataset Split**: The dataset is divided into training (80%) and testing (20%) sets using the `splitfolders` library.
+- **Data Augmentation**: Various augmentation techniques are applied to the training set to make the model more robust. These techniques include rotation, shifting, shearing, zooming, and horizontal flipping.
+- **Test Set Preprocessing**: For the test set, only rescaling is applied (no augmentation).
+- **Data Generators**: Data generators are used to load and preprocess the data in batches, ensuring efficient training and evaluation.
+- **Verification**: The dataset split is verified by checking the number of images in each category for both the training and test sets.
+
+This preprocessing pipeline ensures that the model is trained on a diverse set of augmented data and is evaluated on a consistent, unaltered test set.
+
 ## Results
 - **Accuracy**: The model achieved an accuracy greater than 90% on both training and testing datasets.
 - **Overfitting Check**: The model has been evaluated for overfitting, and the results indicate that the model generalizes well on new data.
