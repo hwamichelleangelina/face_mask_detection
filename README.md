@@ -122,3 +122,6 @@ This preprocessing pipeline ensures that the model is trained on a diverse set o
 ## Results
 - **Accuracy**: The model achieved an accuracy greater than 90% on both training and testing datasets.
 - **Overfitting Check**: The model has been evaluated for overfitting, and the results indicate that the model generalizes well on new data.
+
+## License
+The Dataset source is licensed under the **CC0: Public Domain** license. You can use, modify, and distribute this code freely without any restrictions.
