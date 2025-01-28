@@ -1,0 +1,1 @@
+Images in this folder are used to simulate model prediction in the inference section. These images were taken from https://www.kaggle.com/datasets/tapakah68/medical-masks-part1.
