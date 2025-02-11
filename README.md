@@ -11,13 +11,13 @@ The model is trained using a publicly available dataset of face mask images. The
 - **Multiple Model Exports**: The model is saved in various formats including TensorFlow SavedModel, TensorFlow Lite (TFLite), and TensorFlow.js for easy deployment.
 
 ### Technologies:
-Python
-TensorFlow (including TensorFlow.js, TensorFlow Lite)
-OpenCV
-Keras
-Scikit-learn
-Matplotlib
-Google Colab (for dataset access)
+- Python
+- TensorFlow (including TensorFlow.js, TensorFlow Lite)
+- OpenCV
+- Keras
+- Scikit-learn
+- Matplotlib
+- Google Colab (for dataset access)
 
 ## Project Directory
 ```
